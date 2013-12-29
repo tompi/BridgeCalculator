@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bridge Calculator Free</string>
+    <!-- "Open" symbols
+    <string name="symbol_clubs">&#9831;</string>
+    <string name="symbol_diamonds">&#9826;</string>
+    <string name="symbol_hearts">&#9825;</string>
+    <string name="symbol_spades">&#9828;</string>
+     -->
+    <string name="symbol_clubs">&#9827;</string>
+    <string name="symbol_diamonds">&#9830;</string>
+    <string name="symbol_hearts">&#9829;</string>
+    <string name="symbol_spades">&#9824;</string>
+    <string name="symbol_notrump">NT</string>
+
+    <string name="OK">OK</string>
+    
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    
+    <string name="aboutAuthor">by Thomas Haukland</string>
+    <string name="aboutSummary">Feedback is much appreciated, please drop a note to support@bridgecalculator.com if you have any comments!\n\nOh, and consider buying the "pro"-version, it has lot\'s of useful features for bridge players ;-)</string>
+        
+</resources>

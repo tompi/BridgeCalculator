@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+>
+	<!-- Status -->
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:orientation="horizontal"
+	android:gravity="center"
+	android:padding="3dip"
+	>
+		<TextView android:id="@+id/contractLabel"
+			style="@style/calculatorwindow"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:textStyle="bold" 
+			android:gravity="center"
+			android:layout_weight="1"		 
+		>
+		</TextView>
+		
+	</LinearLayout>
+
+	<!-- Level -->
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:orientation="horizontal"
+	android:gravity="center">
+		<Button
+			android:id="@+id/ContractLevel1"
+			style="@style/TextButton.Level"
+			android:text="1"/>
+		<Button
+			android:id="@+id/ContractLevel2"
+			style="@style/TextButton.Level"
+			android:text="2"/>contract
+		<Button
+			android:id="@+id/ContractLevel3"
+			style="@style/TextButton.Level"			
+			android:text="3"/>
+		<Button
+			android:id="@+id/ContractLevel4"
+			style="@style/TextButton.Level"
+			android:text="4"/>
+	</LinearLayout>		
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:orientation="horizontal"
+	android:gravity="center">
+		<Button
+			android:id="@+id/ContractLevel5"
+			style="@style/TextButton.Level"
+			android:text="5"/>
+		<Button
+			android:id="@+id/ContractLevel6"
+			style="@style/TextButton.Level"
+			
+			android:text="6"/>
+		<Button
+			android:id="@+id/ContractLevel7"
+			style="@style/TextButton.Level"
+			android:text="7"/>
+		<Button
+			android:id="@+id/ContractLevelPass"
+			style="@style/TextButton.Pass"
+			android:text="Pass"/>
+	</LinearLayout>		
+
+	<!-- Suit X XX PlayedBy -->
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:orientation="horizontal"
+	android:paddingTop="6dip"
+	android:gravity="center">
+		<Button
+			android:id="@+id/ContractSuitClubs"
+			style="@style/TextButton.Clubs"
+			android:text="@string/symbol_clubs"/>
+		<Button
+			android:id="@+id/ContractSuitDiamonds"
+			style="@style/TextButton.Diamonds"
+			android:text="@string/symbol_diamonds"/>
+		<Button
+			android:id="@+id/ContractSuitHearts"
+			style="@style/TextButton.Hearts"
+			android:text="@string/symbol_hearts"/>
+		<Button
+			android:id="@+id/ContractSuitSpades"
+			style="@style/TextButton.Spades"
+			android:text="@string/symbol_spades"/>
+	</LinearLayout>		
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:orientation="horizontal"
+	android:gravity="center">
+		<Button
+			android:id="@+id/ContractSuitNT"
+			style="@style/TextButton.NoTrump"
+			android:text="@string/symbol_notrump"/>
+		<ToggleButton
+			android:id="@+id/ContractDoubled"
+			style="@style/TextButton.Doubled"
+			android:textOn="X"
+			android:textOff="X"/>
+		<ToggleButton
+			android:id="@+id/ContractReDoubled"
+			style="@style/TextButton.Redoubled"
+			android:textOn="XX"
+			android:textOff="XX"/>
+		<ToggleButton
+			android:id="@+id/vulnerable"
+			style="@style/TextButton.Vulnerable"
+			android:textOn="Vulnerable"
+			android:textOff="Not vuln."
+			android:checked="false"/>
+	</LinearLayout>		
+	
+	<!-- Tricks -->	
+		<LinearLayout
+		android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+		android:paddingTop="6dip"
+		android:gravity="center">
+			<Button android:id="@+id/contractMinusTrick"
+				style="@style/TextButton"
+				android:text="-"/> 
+			<TextView android:id="@+id/TricksLabel" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:gravity="center" 
+			android:text="Tricks: 8" 
+			android:textStyle="bold"
+			android:textSize="20sp"
+			android:layout_weight="1" 
+			>
+			</TextView>
+			<Button android:id="@+id/contractPlusTrick"
+				style="@style/TextButton"
+				android:text="+"/> 
+		</LinearLayout>
+		<SeekBar
+		android:id="@+id/TricksSeekBar"
+		android:max="13"
+		android:progress="8"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="3dip"
+		>
+		</SeekBar>
+		
+
+	
+</LinearLayout>
+
+</LinearLayout>

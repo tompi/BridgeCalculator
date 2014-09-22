@@ -7,7 +7,7 @@
         <item name="android:textColor">@color/white</item>
 	</style>
 	<style name="Text.Header">
-        <item name="android:textSize">25sp</item>
+        <item name="android:textSize">35sp</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">bold</item>
 	</style>	
@@ -71,7 +71,6 @@
         <item name="android:orientation">vertical</item> 
         <item name="android:gravity">center</item>               
 	</style>
-
 	<style name="TextButton">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
@@ -85,51 +84,61 @@
         <item name="android:paddingBottom">6dip</item>
 		<item name="android:background">@drawable/custom_button</item>
 		<item name="android:textColor">@color/black</item>
+	    <item name="android:textSize">30sp</item>
 	</style>
 	
 	<style name="TextButton.Level">
 	</style>
 	<style name="TextButton.Pass">
 		<item name="android:background">@drawable/pass_button</item>
+		<item name="android:textSize">20sp</item>
 		<item name="android:textColor">@color/white</item>
 	</style>
 	<style name="TextButton.Clubs">
 		<item name="android:background">@drawable/clubs_button</item>
 		<item name="android:textColor">@color/clubs</item>
+	    <item name="android:textSize">30sp</item>
 	</style>
 	<style name="TextButton.Diamonds">
 		<item name="android:background">@drawable/diamonds_button</item>
-		<item name="android:textColor">@color/diamonds</item>
+		<item name="android:textColor">@color/red</item>
+	    <item name="android:textSize">30sp</item>
 	</style>
 	<style name="TextButton.Hearts">
 		<item name="android:background">@drawable/hearts_button</item>
-		<item name="android:textColor">@color/hearts</item>
+		<item name="android:textColor">@color/red</item>
+	    <item name="android:textSize">30sp</item>		
 	</style>
 	<style name="TextButton.Spades">
 		<item name="android:background">@drawable/spades_button</item>
 		<item name="android:textColor">@color/spades</item>
+	    <item name="android:textSize">30sp</item>		
 	</style>
 	<style name="TextButton.NoTrump">
 		<item name="android:background">@drawable/notrump_button</item>
 		<item name="android:textColor">@color/notrump</item>
+	    <item name="android:textSize">30sp</item>		
 	</style>
 	<style name="TextButton.Doubled">
 		<item name="android:background">@drawable/doubled_button</item>
 		<item name="android:textColor">@color/white</item>
+	    <item name="android:textSize">30sp</item>		
 	</style>
 	<style name="TextButton.Redoubled">
 		<item name="android:background">@drawable/redoubled_button</item>
 		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">30sp</item>
 	</style>
 	<style name="TextButton.Vulnerable">
 		<item name="android:background">@drawable/vulnerable_button</item>
 		<item name="android:textColor">@color/white</item>
+	    <item name="android:textSize">20sp</item>			
 	</style>
 	
 	<style name="calculatorwindow">
 		<item name="android:background">@drawable/calculatorwindow</item>
 		<item name="android:textColor">@color/white</item>
-		<item name="android:textSize">20sp</item>
+		<item name="android:textSize">35sp</item>
 		<item name="android:padding">3dip</item>
 	</style>	
 </resources>
